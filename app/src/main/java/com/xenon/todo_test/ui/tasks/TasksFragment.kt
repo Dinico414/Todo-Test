@@ -14,10 +14,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.xenon.todo_test.R
 import com.xenon.todo_test.data.SortOrder
 import com.xenon.todo_test.data.Task
-import com.xenon.todo_test.databinding.FragmentTasksBinding
 import com.xenon.todo_test.util.exhaustive
 import com.xenon.todo_test.util.onQueryTextChanged
 import com.google.android.material.snackbar.Snackbar
@@ -25,6 +23,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
+import com.xenon.todo_test.R
 
 @AndroidEntryPoint
 class TasksFragment : Fragment(R.layout.fragment_tasks), TasksAdapter.OnItemClickListener {
