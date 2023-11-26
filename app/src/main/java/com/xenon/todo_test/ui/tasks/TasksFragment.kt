@@ -1,4 +1,4 @@
-package com.codinginflow.mvvmtodo.ui.tasks
+package com.xenon.todo_test.ui.tasks
 
 import android.os.Bundle
 import android.view.Menu
@@ -14,12 +14,12 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.codinginflow.mvvmtodo.R
-import com.codinginflow.mvvmtodo.data.SortOrder
-import com.codinginflow.mvvmtodo.data.Task
-import com.codinginflow.mvvmtodo.databinding.FragmentTasksBinding
-import com.codinginflow.mvvmtodo.util.exhaustive
-import com.codinginflow.mvvmtodo.util.onQueryTextChanged
+import com.xenon.todo_test.R
+import com.xenon.todo_test.data.SortOrder
+import com.xenon.todo_test.data.Task
+import com.xenon.todo_test.databinding.FragmentTasksBinding
+import com.xenon.todo_test.util.exhaustive
+import com.xenon.todo_test.util.onQueryTextChanged
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect

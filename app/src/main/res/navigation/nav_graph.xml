@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/tasksFragment"
-        android:name="com.codinginflow.mvvmtodo.ui.tasks.TasksFragment"
+        android:name="com.xenon.todo_test.ui.tasks.TasksFragment"
         android:label="Tasks"
         tools:layout="@layout/fragment_tasks">
         <action
@@ -16,13 +16,13 @@
     </fragment>
     <fragment
         android:id="@+id/addEditTaskFragment"
-        android:name="com.codinginflow.mvvmtodo.ui.addedittask.AddEditTaskFragment"
+        android:name="com.xenon.todo_test.ui.addedittask.AddEditTaskFragment"
         android:label="{title}"
         tools:layout="@layout/fragment_add_edit_task">
         <argument
             android:name="task"
             android:defaultValue="@null"
-            app:argType="com.codinginflow.mvvmtodo.data.Task"
+            app:argType="com.xenon.todo_test.data.Task"
             app:nullable="true" />
         <argument
             android:name="title"
@@ -30,7 +30,7 @@
     </fragment>
     <dialog
         android:id="@+id/deleteAllCompletedDialogFragment"
-        android:name="com.codinginflow.mvvmtodo.ui.deleteallcompleted.DeleteAllCompletedDialogFragment"
+        android:name="com.xenon.todo_test.ui.deleteallcompleted.DeleteAllCompletedDialogFragment"
         android:label="DeleteAllCompletedDialogFragment" />
     <action
         android:id="@+id/action_global_deleteAllCompletedDialogFragment"

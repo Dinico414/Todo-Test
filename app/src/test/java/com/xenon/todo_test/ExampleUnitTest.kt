@@ -1,4 +1,4 @@
-package com.codinginflow.mvvmtodo
+package com.xenon.todo_test
 
 import org.junit.Test
 

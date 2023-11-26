@@ -1,4 +1,4 @@
-package com.codinginflow.mvvmtodo.ui.tasks
+package com.xenon.todo_test.ui.tasks
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,8 +6,8 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.codinginflow.mvvmtodo.data.Task
-import com.codinginflow.mvvmtodo.databinding.ItemTaskBinding
+import com.xenon.todo_test.data.Task
+import com.xenon.todo_test.databinding.ItemTaskBinding
 
 class TasksAdapter(private val listener: OnItemClickListener) :
     ListAdapter<Task, TasksAdapter.TasksViewHolder>(DiffCallback()) {

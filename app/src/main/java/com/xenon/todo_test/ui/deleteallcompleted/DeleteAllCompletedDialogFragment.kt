@@ -1,4 +1,4 @@
-package com.codinginflow.mvvmtodo.ui.deleteallcompleted
+package com.xenon.todo_test.ui.deleteallcompleted
 
 import android.app.Dialog
 import android.os.Bundle

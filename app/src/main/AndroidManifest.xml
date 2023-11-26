@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codinginflow.mvvmtodo">
+    package="com.xenon.todo_test">
 
     <application
-        android:name=".ToDoApplication"
+        android:name="com.xenon.todo_test.ToDoApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MVVMTodo">
+        android:theme="@style/Theme.XenonTodo">
         <activity
-            android:name="com.codinginflow.mvvmtodo.ui.MainActivity"
+            android:name="com.xenon.todo_test.ui.MainActivity"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

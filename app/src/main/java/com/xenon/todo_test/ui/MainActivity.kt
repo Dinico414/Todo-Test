@@ -1,4 +1,4 @@
-package com.codinginflow.mvvmtodo.ui
+package com.xenon.todo_test.ui
 
 import android.app.Activity
 import android.os.Bundle
@@ -7,7 +7,7 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.codinginflow.mvvmtodo.R
+import com.xenon.todo_test.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

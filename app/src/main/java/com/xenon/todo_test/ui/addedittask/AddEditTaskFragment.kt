@@ -1,4 +1,4 @@
-package com.codinginflow.mvvmtodo.ui.addedittask
+package com.xenon.todo_test.ui.addedittask
 
 import android.os.Bundle
 import android.view.View
@@ -10,9 +10,9 @@ import androidx.fragment.app.setFragmentResult
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.codinginflow.mvvmtodo.R
-import com.codinginflow.mvvmtodo.databinding.FragmentAddEditTaskBinding
-import com.codinginflow.mvvmtodo.util.exhaustive
+import com.xenon.todo_test.R
+import com.xenon.todo_test.databinding.FragmentAddEditTaskBinding
+import com.xenon.todo_test.util.exhaustive
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
